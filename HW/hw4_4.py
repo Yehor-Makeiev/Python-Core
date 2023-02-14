@@ -8,9 +8,10 @@ def get_grade(key):
         "B": 5,
         "A": 5,
     }
-    for grad, five in grades_five.items():
-        if key in grad:
-            return five
+    print(grades_five.get(key, None))
+    # for grad, five in grades_five.items():
+    #     if key in grad:
+    #         return five
 
 
 def get_description(key):
@@ -23,10 +24,11 @@ def get_description(key):
         "B": "Very good",
         "A": "Perfectly",
     }
-    for grad, expl in grades_expl.items():
-        if key in grad:
-            return expl
+    print(grades_expl.get(key, None))
+    # for grad, expl in grades_expl.items():
+    #     if key in grad:
+    #         return expl
 
 
-get_grade("P")
-get_description("N")
+get_grade("FX")
+get_description("A")
