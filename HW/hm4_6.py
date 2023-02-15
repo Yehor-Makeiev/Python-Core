@@ -19,5 +19,5 @@ def split_list(grade):
                 
 
 
-grade = [5, 13, 26, 23, 30, 50, 14, 10]
+grade = [5, 13, 26, 23, 30, 50, 14, 10,11]
 split_list(grade)
