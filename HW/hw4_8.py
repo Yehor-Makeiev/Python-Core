@@ -5,6 +5,7 @@ def game(terra, power):
                 break
             else:
                 power += val_1
+    return power
         
         
                 
